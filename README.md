@@ -43,11 +43,16 @@ tokens.txt (Put your Discord user tokens, one per line)
 wordlist.txt (Optional) (Put custom words/names, one per line, if you select option 4)
 Configuration (Data.txt)
 Upon first run, a Data.txt configuration file will be automatically generated. You can modify it to suit your needs without touching the source code:
+
 # Checker Configuration
 interval_min = 1.0
+
 interval_max = 3.0
+
 webhook_url = webhook_url
+
 webhook_format = {username}
+
 concurrent_workers = 3
 
 interval_min / interval_max: Random delay range (in seconds) between requests.
