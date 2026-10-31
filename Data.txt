@@ -1,0 +1,5 @@
+interval_min = 1.0
+interval_max = 1.5
+webhook_url = https://canary.discord.com/api/webhooks/...
+webhook_format = `{username}`
+concurrent_workers = 5
