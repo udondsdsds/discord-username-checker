@@ -31,7 +31,8 @@ Setup & Installation
 Ensure you have Python 3.8+ installed on your system.
 2. Install Dependencies
 Run the following command in your terminal to install the required libraries:
-pip install aiohttp colorama
+
+### pip install aiohttp colorama
 
 # 3. File Setup
 Create the following files in your project directory:
@@ -62,4 +63,3 @@ Choose your desired username generation mode from the interactive menu:
 3: 5-letter Numeric
 4: file 
 
-The tool will start checking automatically. Press Ctrl + C to stop at any time.
