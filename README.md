@@ -5,16 +5,27 @@ USE AT YOUR OWN RISK.
 This tool is provided for educational and experimental purposes only. Using user tokens (self-bots) to automate requests against the Discord API violates Discord's Terms of Service (ToS). The authors and contributors are not responsible for any account suspensions, bans, or other damages caused by using this software.
 Features
 Multi-Token Support: Rotate and utilize multiple user tokens seamlessly.
+
 Duplicate Prevention: SQLite-based caching prevents checking the same username for 1 week.
+
 Smart Error Handling: Rate limits (429) and connection errors automatically skip marking usernames as checked so they can be retried later.
+
 Customizable Configuration: Manage intervals, worker counts, and webhook settings easily via Data.txt.
+
 Discord Webhook Notifications: Real-time alerts when an available username is found.
+
 Auto-save: Successfully found available usernames are automatically saved to success.txt.
+
 Random Generation Options:
+
 4-letter alphanumeric
+
 5-letter alphabetic
+
 5-letter numeric
-Custom wordlist from file (wordlist.txt)
+
+file 
+
 Setup & Installation
 1. Prerequisites
 Ensure you have Python 3.8+ installed on your system.
