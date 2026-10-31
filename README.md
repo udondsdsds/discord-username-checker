@@ -4,6 +4,7 @@ An asynchronous Discord username availability checker written in Python, designe
 USE AT YOUR OWN RISK.
 This tool is provided for educational and experimental purposes only. Using user tokens (self-bots) to automate requests against the Discord API violates Discord's Terms of Service (ToS). The authors and contributors are not responsible for any account suspensions, bans, or other damages caused by using this software.
 Features
+
 Multi-Token Support: Rotate and utilize multiple user tokens seamlessly.
 
 Duplicate Prevention: SQLite-based caching prevents checking the same username for 1 week.
